@@ -1,0 +1,31 @@
+{
+  "name": "example-ssss",
+  "version": "0.0.1",
+  "description": "Example package ssss",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "rm -fv -r dist && tsc -p .",
+    "prepack": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reynaldiaznan123/example-ssss.git"
+  },
+  "keywords": [
+    "Example"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reynaldiaznan123/example-ssss/issues"
+  },
+  "homepage": "https://github.com/reynaldiaznan123/example-ssss#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
